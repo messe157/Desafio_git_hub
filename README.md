@@ -5,9 +5,13 @@ Desafio de projeto sobre Git/Github
 ## Links uteis 
 
 [Comandos basicos terminal Linux] (https://www.devmedia.com.br/comandos-importantes-linux/23893)
+
 [Lista de comandos úteis do GIT] (https://gist.github.com/leocomelli/2545add34e4fec21ec16)
+
 [Criar um token de acesso pessoal] (https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
 [SHA1] (https://pt.wikipedia.org/wiki/SHA-1)
+
 [Oque é Git?] (https://www.atlassian.com/br/git/tutorials/what-is-git)
 
 
