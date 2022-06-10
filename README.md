@@ -32,10 +32,10 @@ As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado 
 As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
 
 ##### Setar usuário
-	git config --global user.name "Leonardo Comelli"
+	git config --global user.name "messe157"
 
 ##### Setar email
-	git config --global user.email leonardo@software-ltda.com.br
+	git config --global user.email emersongravacoes@gmail.com
   
 ##### Listar configurações
 	git config --list
@@ -190,4 +190,6 @@ Neste caso, o ponteiro principal **HEAD** esta apontando para o branch chamado b
 ##### Apagar branch remoto
 
 	git push origin:bug-123
+	
+####contribua com mais conhecimentos
 
