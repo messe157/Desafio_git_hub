@@ -16,9 +16,7 @@
                 padding-left: 10px;
                 line-height: 30px;
             }
-            
-            
-        </style>
+            </style>
         <style type="text/css">
             .titulo {
                 font: Impact;
@@ -26,11 +24,9 @@
                 font-weight: 200;
                 padding-left: 10px
                 line-height: 30px;
-                color: green;
-
-                
+                color: green;    
             }
-</style>
+        </style>
   <script>
   $( function() {
     $( "#accordion" ).accordion();
@@ -87,7 +83,7 @@
   <h3>Section 1</h3>
   <div>
     <p>
-    <?php
+        <?php
             for ( $i = 0 ; $i < 10 ; $i++) {
                 print( "<span class=\"linha\">Linha número " . $i . "</span><br/>");
             }
@@ -97,7 +93,7 @@
   <h3>Section 2</h3>
   <div>
     <p>
-    <?php
+        <?php
             for ( $i = 0 ; $i < 5 ; $i++) {
                 print( "<span class=\"linha\">Linha número " . $i . "</span><br/>");
             }
@@ -105,33 +101,33 @@
     </p>
   </div>
   <h3>Section 3</h3>
-  <div>
+    <div>
     <p>
     <div class="widget">
-  <h1>Botões</h1>
-  <button>A button element</button>
+    <h1>Botões</h1>
+    <button>A button element</button>
  
-  <input type="submit" value="A submit button">
+    <input type="submit" value="A submit button">
  
-  <a href="#">An anchor</a>
-</div>
-<h1>CSS Buttons</h1>
-<button class="ui-button ui-widget ui-corner-all">A button element</button>
+    <a href="#">An anchor</a>
+    </div>
+    <h1>CSS Buttons</h1>
+    <button class="ui-button ui-widget ui-corner-all">A button element</button>
  
-<input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+    <input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
  
-<a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+    <a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
  
-  </div>
-  <h3>Section 4</h3>
-  <div>
+    </div>
+    <h3>Section 4</h3>
+    <div>
     <p>
     <div class="ui-widget">
-  <label for="tags">Tags: </label>
-  <input id="tags">
-</div>
+    <label for="tags">Tags: </label>
+    <input id="tags">
+    </div>
     </p>
-  </div>
+ </div>
 </div>
  
  
