@@ -1,0 +1,76 @@
+body {
+    background: #ccc;
+}
+
+.title_home {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkorange;
+    padding: 50px;
+    font-style: bold;
+    background: #fff;
+    margin-left: 160px;
+    margin-right: 10px;
+    margin-top: -140px;
+    border-radius: 5px;
+}
+
+#title, .subtitle, .post_title {
+    color: blue;
+}
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+}
+.post {
+    background: #fff;
+    padding: 10px;
+    border: 3px solid #000;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+#footer {
+    background-color: rgb(163, 157, 157);
+    padding: 10px;
+    border: 3px solid #000;
+    margin: 10px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+#menuhor {
+    border:none;
+    margin-left: 160px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    #menuhor li {
+    list-style: none; 
+    margin: 0;
+    display: inline;
+    }
+    #menuhor li a {
+    height: 2px; /* IE5.0 bug */
+    padding: 8px 10px; 
+    margin: 1px;;
+    background: #999;
+    text-decoration: none;
+    border-radius: 5px;
+    position: center;
+    }
+    #menuhor li a:link {
+    color: #fff;
+    }
+    #menuhor li a:visited {
+    color: #fff;
+    }
+    #menuhor li a:hover {
+    background: #ccc;
+    color: #000; 
+    border-color: #000;
+    }
