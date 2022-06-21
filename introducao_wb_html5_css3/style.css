@@ -1,5 +1,13 @@
 body {
     background: #ccc;
+    margin: auto;
+    max-width: 900;
+}
+
+#photo_perfil{
+    border-radius: 50%;
+    border-color: #000;
+    border-style: 5px;
 }
 
 .title_home {
@@ -17,10 +25,33 @@ body {
 
 #title, .subtitle, .post_title {
     color: blue;
+    margin-left: 20px;
+
 }
+.autor_title {
+    margin-left: 20px;
+    font-size: 11px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 200px;
+    margin: 0px;
+    margin-block-end: auto;
+}
+#autor_title_primeiro {
+    
+    font-size: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-block-end: auto;
+    
+}
+
 .post_title {
     font-size: 16px;
     font-style: italic;
+   
+    
 }
 .post {
     background: #fff;
@@ -37,6 +68,7 @@ body {
     margin: 10px;
     text-align: left;
     border-radius: 10px;
+    
 }
 
 ul.circle {
