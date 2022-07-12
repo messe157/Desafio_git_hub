@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align Content</title>
+    <style>
+         .container{
+            height: 350px;
+            max-width: 300px;
+            border: 2px solid black;
+            flex-wrap: wrap;
+            display: flex;
+            margin-bottom: 10px;
+
+        }
+        .item{
+            background-color:blueviolet;
+            margin:5px;
+            text-align: center;
+            color: white;
+            flex: 1;
+            padding: 0 5px;
+            border: 1px solid black;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .space-around{
+            align-content: space-around;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 1111111111</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 22222222222</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 33333333333</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+    </div>
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 1111111111</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 22222222222</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 33333333333</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+    </div>
+        
+    <p>Flex start</p>
+    <div class="container flex-start">
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 1111111111</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 22222222222</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 33333333333</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+    </div>
+    <p>Flex end</p>
+    <div class="container flex-end">
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 1111111111</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 22222222222</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 33333333333</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+    </div>    
+    <p>Space Round</p>
+    <div class="container space-around">
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 1111111111</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 22222222222</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 33333333333</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+        <div class="item">Lorem ipsum dadsa Lorem ipsum dadsa Lorem ipsum 444444444444</div>
+    </div>  
+        
+</body>
+</html>

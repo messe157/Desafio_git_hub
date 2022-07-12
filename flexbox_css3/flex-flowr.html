@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura básica e prática com flex flow</title>
+    <style>
+        .flex-container{
+           
+           flex-direction: column;
+           display: flex;
+           border: 2px solid black;
+           margin-bottom: 10px;
+           
+       }
+       .default{
+        flex-flow: row nowrap;
+       }
+       .wrap{
+        flex-flow: row wrap;
+       }
+       .wrap-reverse{
+        flex-flow: row wrap-reverse;
+       }
+       .r-nowrap{
+        flex-flow: wrap-reverse nowrap;
+       }
+       .r-wrap{
+        flex-flow: row-reverse nowrap;
+       }
+        .item{
+            background-color:blueviolet;
+            margin: 5px;
+            font-size: 24px; 
+            color: white;
+            height: 50px;
+            width: 100px;
+            line-height: 50px; 
+            text-align: center; 
+
+        }
+    
+
+        .blue{
+            background: blue;
+        }
+        .green{
+            background: green;
+        }
+        .orange{
+            background: orange;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <h1>Defaut: flex flowr</h1>
+    <div class="flex-container default"> 
+        <div class="item blue"> 1</div>
+        <div class="item green"> 2</div>
+        <div class="item orange"> 3</div>
+        <div class="item"> 4</div>
+        
+    </div>
+    <h1>wrap: flex flowr</h1>
+    <div class="flex-container wrap"> 
+        <div class="item blue"> 1</div>
+        <div class="item green"> 2</div>
+        <div class="item orange"> 3</div>
+        <div class="item"> 4</div>
+        
+    </div>
+    <h1>wrap-reverse: flex flowr</h1>
+    <div class="flex-container wrap-reverse"> 
+        <div class="item blue"> 1</div>
+        <div class="item green"> 2</div>
+        <div class="item orange"> 3</div>
+        <div class="item"> 4</div>
+        
+    </div>
+    <h1>R-Nowrap: flex flowr</h1>
+    <div class="flex-container r-nowrap"> 
+        <div class="item blue"> 1</div>
+        <div class="item green"> 2</div>
+        <div class="item orange"> 3</div>
+        <div class="item"> 4</div>
+        
+    </div>
+    <h1>R-rap: flex flowr</h1>
+    <div class="flex-container r-wrap"> 
+        <div class="item blue"> 1</div>
+        <div class="item green"> 2</div>
+        <div class="item orange"> 3</div>
+        <div class="item"> 4</div>
+        
+    </div>
+</body>
+</html>

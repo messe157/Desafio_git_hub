@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - flex basis</title>
+
+    <style>
+        .flex-container{
+            max-width: 300px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .items{
+            background-color: coral;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+        .bauto{
+            flex-basis: auto;
+        }
+        .fg-1{
+            flex-grow: 1;
+        }
+        .fg-2{
+            flex-grow: 2;
+        }
+        
+        .teste-container{
+            max-width: 300px;
+            border: 1px solid olivedrab;
+            display: flex;
+        }
+
+        .item{
+            background-color: red;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+        .bauto{
+            flex-basis: auto;
+        }
+        .fg-1{
+            flex-grow: 1;
+        }
+        .fg-2{
+            flex-grow: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="items bauto fg-1">Aaaaa</div>
+        <div class="items bauto fg-1">BB</div>
+        <div class="items bauto fg-1">V</div>
+        <div class="items bauto fg-2">DEF</div>
+
+    </div>
+<p> 0 (zero)</p>
+    <div class="flex-container">
+        <div class="items bauto fg-1">Aaaaa</div>
+        <div class="items bauto fg-1">BB</div>
+        <div class="items bauto fg-1">V</div>
+        <div class="items bauto fg-2">DEF</div>
+
+    </div>
+<p>container teste</p>
+    <div class="teste-container">
+        <div class="item bauto fg-1">Aaaaa</div>
+        <div class="item bauto fg-1">BB</div>
+        <div class="item bauto fg-1">V</div>
+        <div class="item bauto fg-2">DEF</div>
+
+    </div>
+<p> 0 (zero) teste</p>
+    <div class="teste-container">
+        <div class="item bauto fg-1">Aaaaa</div>
+        <div class="item bauto fg-1">BB</div>
+        <div class="item bauto fg-1">V</div>
+        <div class="item bauto fg-2">DEF</div>
+
+    </div>
+    
+</body>
+</html>

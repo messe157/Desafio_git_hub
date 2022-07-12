@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align items</title>
+    <style>
+        .container{
+            max-width: 400px;
+            border: 2px solid black;
+            margin: 0;
+            display: flex;
+            margin-bottom: 10px;
+
+        }
+        .item{
+            background-color:blueviolet;
+            margin:5px;
+            text-align: center;
+            color: white;
+            flex: 1;
+        }
+       
+        .center{
+            align-items: center;
+        }
+        .stretch{
+            align-items: stretch;
+        }
+        .flex-start{
+            align-items: flex-start;
+        }
+        .flex-end{
+            align-items: flex-end;
+        }
+        .base-line{
+            align-items: baseline;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .central{
+            height: 300px;
+            justify-content: center;
+        }
+        .central .item{
+            flex: 0;
+            padding: 20px;
+        } /*add item altera somente a tag da classe central*/
+
+    </style>
+</head>
+<body>
+
+    <p>center</p>
+    <section class="container center">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+
+    <p>center</p>
+    <section class="container stretch">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+    <p>Flex-start</p>
+    <section class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+    <p>Flex-end</p>
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+    <p>Base Line</p>
+    <section class="container base-line">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+
+  <!-- em conluna-->  
+<h2>column</h2>
+    <p>center</p>
+    <section class="container center column">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+
+    <p>stretch</p>
+    <section class="container stretch column">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+    <p>Flex-start</p>
+    <section class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+    <p>Flex-end</p>
+    <section class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+    <p>Base Line</p>
+    <section class="container base-line column">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum</div>
+    </section>
+    <h2>Alinhamento central a tela</h2>
+    <section class="container central center">
+        <div class="item">1</div>
+        <div class="item">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+        
+
+    </section>
+</body>
+</html>
